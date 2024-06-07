@@ -23,7 +23,7 @@ function loadData(){
     >
     {{ users.name }}
     </div>
-    <button @click="loadData">
+    <button @click="loadData"  class="bg-green-500 text-center ">
         Cargar info
         </button>
 
